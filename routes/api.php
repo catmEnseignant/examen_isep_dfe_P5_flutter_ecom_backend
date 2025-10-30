@@ -13,4 +13,4 @@ Route::post('/categories/store', [\App\Http\Controllers\API\CategorieAPIControll
 
 Route::put('/categories/update/{id_categorie}', [\App\Http\Controllers\API\CategorieAPIController::class,'update']);
 
-//Pour Produits s'inspirer des routes de api
+//Pour Produits s'inspirer des routes de api créer les controllers
